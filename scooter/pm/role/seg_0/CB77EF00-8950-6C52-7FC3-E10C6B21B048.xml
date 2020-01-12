@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Role class="oracle.dbtools.crest.model.design.process.Role" name="admin" directorySegmentName="seg_0" id="CB77EF00-8950-6C52-7FC3-E10C6B21B048">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-12 00:08:03 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<synonym>administrateur</synonym>
+</Role>

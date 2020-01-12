@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="list type" directorySegmentName="seg_0" id="F603A45E-1975-043E-B4E6-5F5E36F7105D">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-12 00:01:50 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<predefined>false</predefined>
+<dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+<size></size>
+<type>DOM3000004</type>
+<isreference>false</isreference>
+</dataTypeDescr>
+<maxElement>1</maxElement>
+<type>ARRAY</type>
+</CollectionType>

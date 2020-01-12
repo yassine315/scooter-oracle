@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C0CF22E-38FD-4AAB-68BA-778AD6713871" name="client">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:41:11 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>client</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_client" id="3AC8516D-0BB7-21C3-A306-4B35D8EE2500">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:41:46 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>979DF33D-DF13-D8E7-DA47-4C6B8F2753C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="C1399E9F-F913-79C0-ED93-95F31972F160">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:42:06 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AA4DC984-782C-F233-358F-CEAD25162307</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="F546E0F5-E532-83B2-EFFC-F1DD6F94BF96">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:42:18 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6C6B8B5E-AED4-3E3F-FE25-9705BF62861D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89E808EF-B930-B8A6-AD23-4DFF03CE731F" name="client PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:42:03 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AC8516D-0BB7-21C3-A306-4B35D8EE2500</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

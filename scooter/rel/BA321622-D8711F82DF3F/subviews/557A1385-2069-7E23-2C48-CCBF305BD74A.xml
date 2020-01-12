@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="557A1385-2069-7E23-2C48-CCBF305BD74A">
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relationa" id="557A1385-2069-7E23-2C48-CCBF305BD74A">
 <createdBy>hp</createdBy>
 <modifiedBy>hp</modifiedBy>
 <createdTime>2020-01-11 23:36:30 UTC</createdTime>
@@ -13,4 +13,14 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="29CC9254-6755-C101-8BE3-896DE7F450A1" otype="Table" vid="F5644940-3AD7-9FEF-518C-DA3515A40DA4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="360" y="36" width="192" height="101"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BBAB71F3-EB77-3FF4-1092-BDD3D410C251" otype="Table" vid="68912989-E63F-2A2A-5A12-D8007DE745A2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="77" y="31" width="168" height="105"/>
+</OView>
+</objectViews>
 </Diagram>

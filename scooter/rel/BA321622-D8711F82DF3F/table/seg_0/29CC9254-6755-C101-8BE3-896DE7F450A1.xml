@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29CC9254-6755-C101-8BE3-896DE7F450A1" schemaObject="E0782B04-9620-B626-81BA-86FF45E5FEE4" name="client">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:45:33 UTC</createdTime>
+<generatorID>8C0CF22E-38FD-4AAB-68BA-778AD6713871</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<abbreviation>client</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="D5E34408-2E8C-CE95-6003-5A0AD82426A3">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:45:33 UTC</createdTime>
+<generatorID>3AC8516D-0BB7-21C3-A306-4B35D8EE2500</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>979DF33D-DF13-D8E7-DA47-4C6B8F2753C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="17CB6209-99AF-43B8-5CC0-E66EBE7597C5">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:45:33 UTC</createdTime>
+<generatorID>C1399E9F-F913-79C0-ED93-95F31972F160</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AA4DC984-782C-F233-358F-CEAD25162307</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="C07206D4-47C9-E0EF-F23A-CFD12C1B26C4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:45:33 UTC</createdTime>
+<generatorID>F546E0F5-E532-83B2-EFFC-F1DD6F94BF96</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6C6B8B5E-AED4-3E3F-FE25-9705BF62861D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A6062BA-530C-D835-26E1-15A903B0D436" name="client_PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:45:33 UTC</createdTime>
+<generatorID>89E808EF-B930-B8A6-AD23-4DFF03CE731F</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5E34408-2E8C-CE95-6003-5A0AD82426A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

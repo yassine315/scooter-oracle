@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Event class="oracle.dbtools.crest.model.design.process.Event" name="new" directorySegmentName="seg_0" id="DCBC6195-C683-22A4-B0E1-42FC40A19F4C">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:59:27 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<atTime>false</atTime>
+<dayOfMonth>0</dayOfMonth>
+<dayOfWeek>Monday thru Sunday</dayOfWeek>
+<eventType>1</eventType>
+<fiscal>true</fiscal>
+<frequency>0</frequency>
+<hour>0</hour>
+<minute>0</minute>
+<months>All Months</months>
+<onDay>true</onDay>
+<quarter>0</quarter>
+<timeFreq>0</timeFreq>
+<timesWhenRun>1</timesWhenRun>
+<year>0</year>
+</Event>

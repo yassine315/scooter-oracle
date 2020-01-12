@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="localiser" directorySegmentName="seg_0" id="8A558590-7D1D-BBBE-6EFD-CE06129D1D84">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-11 23:57:43 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Interactive</mode>
+<priority>Low</priority>
+<peakPeriodsString>100000000000000000000000</peakPeriodsString>
+<events>
+<eventRef>DCBC6195-C683-22A4-B0E1-42FC40A19F4C</eventRef>
+</events>
+</Process>
