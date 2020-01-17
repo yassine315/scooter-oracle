@@ -1,38 +1,63 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="email_client" id="6C6B8B5E-AED4-3E3F-FE25-9705BF62861D">
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="email" id="6C6B8B5E-AED4-3E3F-FE25-9705BF62861D">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-10 19:21:21 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="cin_ckient" id="979DF33D-DF13-D8E7-DA47-4C6B8F2753C5">
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="pourcentage" id="72D9D1B9-6005-8F72-8420-663D3E9892EB">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-17 16:35:33 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeScale>-</dataTypeScale>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="cin" id="979DF33D-DF13-D8E7-DA47-4C6B8F2753C5">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-10 19:17:42 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>10 CHAR</dataTypeSize>
 <fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
-<Domain class="oracle.dbtools.crest.model.design.Domain" name="nom_client" id="AA4DC984-782C-F233-358F-CEAD25162307">
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="nom" id="AA4DC984-782C-F233-358F-CEAD25162307">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-10 19:15:55 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-10 18:58:10 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="locale" id="FC7831EF-BAAE-62A5-2E09-BD802C75DC6C">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-17 16:29:12 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 BYTE</dataTypeSize>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
