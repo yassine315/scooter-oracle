@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ccc" id="61C25600-3030-16EA-783E-5CA53B08FEDA" version="3.5">
-<createdBy>hp</createdBy>
-<createdTime>2020-01-11 23:09:33 UTC</createdTime>
-<ownerDesignName>ccc</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>61C25600-3030-16EA-783E-5CA53B08FEDA</designId>
-</OSDM_Design>
