@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3E51DBB-67D8-F665-42C2-89BE67645CCB" schemaObject="10E43992-29D6-C690-383F-6FF17666632C" name="agent_maintenance">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>929CD923-2283-B1B5-824D-6C54A06BDF32</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<abbreviation>AGM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_agent_maintance" id="FD0B406E-D6C8-BA60-F245-1B2CDC534886">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>6508B108-E3D7-B330-F3D9-1EAC7003F230</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_agent" id="E42DE04A-5B84-D853-F7C4-3F1DD5CCB050">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>2346DB42-4630-3A0E-6EC7-9D7BEFB44F14</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom_agent" id="3FF0050F-E4AF-7291-5367-1195C3E82C4A">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>D159122A-9802-6BF8-1C4B-8A45FF7ED808</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_agent" id="C776E72D-A79F-6711-CFD0-DB237AE3EA95">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>4EBA7A0B-477C-EBEC-EF55-EE9766BB8682</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="FE3532D9-C192-F6A4-4077-178E94765CFA">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>E6463339-CB00-1798-05DA-6960001BAABA</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_pass" id="E713D7CF-0444-9236-5E7D-5B2D02AF085B">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>4930AA0C-F2BB-DC98-3AAB-BDF0D270B5CE</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20730E52-6C56-AE62-4122-57A3A534B28B" name="agent_maintenance_PK">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>4B7091FC-DD7A-E801-2446-4F19F09A7816</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD0B406E-D6C8-BA60-F245-1B2CDC534886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

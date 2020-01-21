@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="louer" directorySegmentName="seg_0" id="0522E889-027F-5594-28A9-77EEAE030C33">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>B7414D12-00B8-8547-9C98-DC173D1C768C</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="depart" id="0BA3BBF8-4F8E-6014-4F09-9BB76DBE9D44">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prix" id="407BC616-A588-3717-26AD-A24C671383B2">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="scooter_matricule" id="799CCE1F-FBA6-E37D-C771-6CFE2017DBF9">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="client_id_client" id="87FCBE78-CD64-1BC0-9AB0-DD3DAF6AAFE5">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="arrive" id="AFC9E680-AC77-603A-DEBC-741F40C5C983">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="heur_depart" id="F5957242-355A-2129-4DCD-0D64E3A43A37">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="heur_arrive" id="FE228C98-1B79-8678-DF1A-9BE60BB0EACA">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="louer_client_FK" id="2C974B5E-87C0-77C3-474A-8F52F3D7246C">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="louer_scooter_FK" id="C8E47081-491D-5BD5-F926-01F70399B51C">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="louer_PK" id="5F747838-3414-913B-60FF-27D0562FD4BA">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

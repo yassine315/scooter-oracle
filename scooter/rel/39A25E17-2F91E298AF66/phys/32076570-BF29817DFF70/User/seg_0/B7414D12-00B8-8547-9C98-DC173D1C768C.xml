@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="moto" directorySegmentName="seg_0" id="B7414D12-00B8-8547-9C98-DC173D1C768C">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:09 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<identifier>0563217656EE3BB6BB51F2604C70047C38</identifier>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions6" id="065F9D7D-9910-20F7-163E-29557CEABF6A">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:35:03 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<privilegesWithGrantOption>ALL PRIVILEGES</privilegesWithGrantOption>
+<table>44EFF152-8B77-58AE-3064-9701A1093BAD</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

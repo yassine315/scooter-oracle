@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44EFF152-8B77-58AE-3064-9701A1093BAD" schemaObject="10E43992-29D6-C690-383F-6FF17666632C" name="scooter">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>0667D33A-39FC-245E-B923-4B2BC2AA877B</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<abbreviation>moto</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricule" id="E17A4FC3-E789-BA99-C1B3-948F5D1B8E95">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>BE16ABC7-97B9-CADC-922A-1419ED8A9BFE</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="niveau_batteri" id="0FFE16C4-2600-4E15-4CE9-D691EF0A691F">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>BF5964D5-5AA4-C416-4340-501B07EDF7C6</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="disponiblite" id="2EEEDAFF-7423-40DE-A9B9-AA5BB118ADC0">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>3F41050E-1FA5-1B43-B5D5-7A0C1463405E</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localisation" id="01FBA8AB-F2D6-E747-663D-718CADFF6AB5">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>E7169240-09CB-4A99-BCE0-AB7E0CEFFB74</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFEE7E19-7BA0-B446-4C26-A6B0CDBB34AA" name="scooter_PK">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>17CD5C80-7E2C-D72D-CB1B-3BC1DD173876</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E17A4FC3-E789-BA99-C1B3-948F5D1B8E95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

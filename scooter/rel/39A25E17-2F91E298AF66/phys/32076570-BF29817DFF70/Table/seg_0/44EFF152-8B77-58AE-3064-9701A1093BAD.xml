@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="scooter" directorySegmentName="seg_0" id="44EFF152-8B77-58AE-3064-9701A1093BAD">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>B7414D12-00B8-8547-9C98-DC173D1C768C</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="localisation" id="01FBA8AB-F2D6-E747-663D-718CADFF6AB5">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="niveau_batteri" id="0FFE16C4-2600-4E15-4CE9-D691EF0A691F">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="disponiblite" id="2EEEDAFF-7423-40DE-A9B9-AA5BB118ADC0">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="matricule" id="E17A4FC3-E789-BA99-C1B3-948F5D1B8E95">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="scooter_PK" id="CFEE7E19-7BA0-B446-4C26-A6B0CDBB34AA">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

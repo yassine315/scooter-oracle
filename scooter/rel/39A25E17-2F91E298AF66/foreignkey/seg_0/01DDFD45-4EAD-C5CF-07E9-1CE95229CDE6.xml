@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="01DDFD45-4EAD-C5CF-07E9-1CE95229CDE6" containerWithKeyObject="C359741C-E1AC-7FF1-56A6-DD7207DA4284" localFKIndex="3A6213A1-80AB-2A33-F6AE-8FBF8F9D979F" name="location_temp_scooter_FK">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 23:04:49 UTC</createdTime>
+<generatorID>B6DDA426-591C-637A-39EE-CC81EB99D453</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<referredTableLongName>moto.scooter</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44EFF152-8B77-58AE-3064-9701A1093BAD</referredTableID>
+<keyObject>CFEE7E19-7BA0-B446-4C26-A6B0CDBB34AA</keyObject>
+<referredKeyID>CFEE7E19-7BA0-B446-4C26-A6B0CDBB34AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricule</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

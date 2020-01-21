@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E3D1F8A-68D0-6D5A-9379-184A920402A0" schemaObject="10E43992-29D6-C690-383F-6FF17666632C" name="admin">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>C00A130A-859D-BB10-8A11-250AF468E2C1</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<abbreviation>admin</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_admin" id="04B5E98A-83D5-8DDD-04E2-D6EDBBEC8D6B">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>6B449F26-D6C6-614F-0511-50F2E399FBBB</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_admin" id="92B21DF0-F855-7B9C-D413-D5DCFE678949">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>D708B271-A7E9-9F5D-4FC8-F5140ECD5F79</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom_admin" id="6BBCAE90-ED1A-C88E-5AEA-500344579E70">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>5429A956-FD28-61B2-B37E-36B00FD1CFC7</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_admin" id="D4484B2A-8E49-9E18-FDA9-317CF0E78D9A">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>62C05A4F-CA03-BE55-612C-9EEF4096576B</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_admin" id="178E941A-1DA5-C72B-E8B1-263EC67EC5FD">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>88076A19-992D-8251-4EED-E6BD63C61B84</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_pass" id="0E1C6A64-A444-2121-708B-EB78202D58B2">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>B4BCAB7D-78DE-A747-B393-DFF4BD35D043</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77FCE2F4-0C40-B43A-7A1E-5F11610C9883" name="admin_PK">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>FBE66AF0-A44F-BCD4-997E-D07ABAC005C5</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04B5E98A-83D5-8DDD-04E2-D6EDBBEC8D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

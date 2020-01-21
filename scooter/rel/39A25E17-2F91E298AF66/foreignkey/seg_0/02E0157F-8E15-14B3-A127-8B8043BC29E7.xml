@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02E0157F-8E15-14B3-A127-8B8043BC29E7" containerWithKeyObject="EF2FCB29-A219-CC51-1E7F-95E0CD3FE9AA" localFKIndex="E7522A62-C11D-10C6-06F4-C4CABBA6A769" name="preparer_agent_maintenance_FK">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:33:16 UTC</createdTime>
+<generatorID>B30D5537-D2AD-EC50-6C23-6BB977C8353D</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<referredTableLongName>moto.agent_maintenance</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3E51DBB-67D8-F665-42C2-89BE67645CCB</referredTableID>
+<keyObject>20730E52-6C56-AE62-4122-57A3A534B28B</keyObject>
+<referredKeyID>20730E52-6C56-AE62-4122-57A3A534B28B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_agent_maintance</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

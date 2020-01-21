@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="admin" directorySegmentName="seg_0" id="1E3D1F8A-68D0-6D5A-9379-184A920402A0">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>B7414D12-00B8-8547-9C98-DC173D1C768C</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_admin" id="04B5E98A-83D5-8DDD-04E2-D6EDBBEC8D6B">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mot_pass" id="0E1C6A64-A444-2121-708B-EB78202D58B2">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="login_admin" id="178E941A-1DA5-C72B-E8B1-263EC67EC5FD">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prenom_admin" id="6BBCAE90-ED1A-C88E-5AEA-500344579E70">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nom_admin" id="92B21DF0-F855-7B9C-D413-D5DCFE678949">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email_admin" id="D4484B2A-8E49-9E18-FDA9-317CF0E78D9A">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="admin_PK" id="77FCE2F4-0C40-B43A-7A1E-5F11610C9883">
+<createdBy>Yassine</createdBy>
+<createdTime>2020-01-21 22:34:00 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
