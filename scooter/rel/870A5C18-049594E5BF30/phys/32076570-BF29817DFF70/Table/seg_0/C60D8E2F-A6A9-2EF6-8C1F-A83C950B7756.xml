@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="client" directorySegmentName="seg_0" id="C60D8E2F-A6A9-2EF6-8C1F-A83C950B7756">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_client" id="0A21C5C5-3139-B9BB-B7D5-8659A1C1B40E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prenom" id="1CC8FC11-7FC7-3247-517B-369B60466CFD">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="2D5C884F-B7C5-2826-8320-520D41DDDA06">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mot_pass" id="918DB3DB-7A07-64FC-348A-5C20FB663494">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="login" id="F4EBD234-76D5-F8FD-30D9-D9FBF01E5ADA">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nom" id="FEFA7BF9-8278-57AB-6443-A74E1012AEF3">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="client_PK" id="38171267-08B3-EC3F-D322-FA502D41DC3E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

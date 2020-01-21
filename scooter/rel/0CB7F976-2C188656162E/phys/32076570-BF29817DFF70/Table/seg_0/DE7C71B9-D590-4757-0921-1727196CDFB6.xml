@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="agent_maintenance" directorySegmentName="seg_0" id="DE7C71B9-D590-4757-0921-1727196CDFB6">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<schemaObject>2E5B2131-0778-DE43-5B40-0CED0B928200</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="login" id="134BA8FA-CC24-BDB6-F79A-FF02B7977726">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mot_pass" id="423C9AA1-FE16-A1BF-BB15-51F96CB42DF4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email_agent" id="66A7C852-1E7A-E329-24F6-6E325678922E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_agent_maintance" id="A5424773-D557-6D8C-4899-FEDB4F787CF9">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prenom_agent" id="AF67A270-76B1-3498-35F9-03CECC31FECC">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nom_agent" id="D4B8AC40-7E82-B2EF-1452-9DC0B10A6121">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="agent_maintenance_PK" id="173D1E53-007E-4FF6-C806-0D71DEF149E7">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:14:30 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

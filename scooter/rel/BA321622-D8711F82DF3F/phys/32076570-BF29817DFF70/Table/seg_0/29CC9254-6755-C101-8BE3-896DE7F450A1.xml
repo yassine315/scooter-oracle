@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="client" directorySegmentName="seg_0" id="29CC9254-6755-C101-8BE3-896DE7F450A1">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:33:42 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<schemaObject>E0782B04-9620-B626-81BA-86FF45E5FEE4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nom" id="17CB6209-99AF-43B8-5CC0-E66EBE7597C5">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:33:42 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="C07206D4-47C9-E0EF-F23A-CFD12C1B26C4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:33:42 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_client" id="D5E34408-2E8C-CE95-6003-5A0AD82426A3">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:33:42 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="client_PK" id="0A6062BA-530C-D835-26E1-15A903B0D436">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:33:42 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

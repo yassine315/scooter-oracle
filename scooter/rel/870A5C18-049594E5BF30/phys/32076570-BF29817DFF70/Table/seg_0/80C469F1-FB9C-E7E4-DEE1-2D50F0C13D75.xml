@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="preparer" directorySegmentName="seg_0" id="80C469F1-FB9C-E7E4-DEE1-2D50F0C13D75">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="agent_maintenance_id_agent_maintance" id="C397B689-F9E0-3BDB-632A-15AE3F4E1F82">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="scooter_matricule" id="F8B4A1A6-780F-5A0E-E207-96EF7FA37450">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="preparer_agent_maintenance_FK" id="63BC8746-7B76-8C3A-B136-9C3FBACFF454">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="preparer_scooter_FK" id="C8ADE593-69F6-7526-0C63-9D499D6EBA9E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="preparer_PK" id="EDC30419-38AE-42A1-3AA9-562E0DBE275E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

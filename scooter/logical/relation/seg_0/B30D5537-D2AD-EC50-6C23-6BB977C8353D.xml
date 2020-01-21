@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="preparer" directorySegmentName="seg_0" id="B30D5537-D2AD-EC50-6C23-6BB977C8353D">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:27:18 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="0CB7F976-B78E-0A43-46DE-2C188656162E" value="true"/>
+</engineerTo>
+<sourcePk>17CD5C80-7E2C-D72D-CB1B-3BC1DD173876</sourcePk>
+<targetPk>4B7091FC-DD7A-E801-2446-4F19F09A7816</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0667D33A-39FC-245E-B923-4B2BC2AA877B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>929CD923-2283-B1B5-824D-6C54A06BDF32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="929CD923-2283-B1B5-824D-6C54A06BDF32" name="agent_maintenance">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:42:29 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>AGM</shortName>
+<synonym>agent</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_agent_maintance" id="6508B108-E3D7-B330-F3D9-1EAC7003F230">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:47:09 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_agent" id="2346DB42-4630-3A0E-6EC7-9D7BEFB44F14">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:47:33 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom_agent" id="D159122A-9802-6BF8-1C4B-8A45FF7ED808">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:47:48 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_agent" id="4EBA7A0B-477C-EBEC-EF55-EE9766BB8682">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:48:06 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="E6463339-CB00-1798-05DA-6960001BAABA">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:48:42 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mot_pass" id="4930AA0C-F2BB-DC98-3AAB-BDF0D270B5CE">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:49:17 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B7091FC-DD7A-E801-2446-4F19F09A7816" name="agent_maintenance PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 13:47:32 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6508B108-E3D7-B330-F3D9-1EAC7003F230</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E2BFD3F-9F79-F4F1-D7B7-C4A8D964BE05" schemaObject="EBE92D66-3C85-BCD8-5514-C3B9A1727581" name="agent_maintenance">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>929CD923-2283-B1B5-824D-6C54A06BDF32</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<abbreviation>AGM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_agent_maintance" id="8472C773-74C2-4AF8-824B-2C777DF6F8D4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>6508B108-E3D7-B330-F3D9-1EAC7003F230</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E237ACE9-AF93-1744-FF59-08988DA22BC5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_agent" id="AC12BD1E-CAD8-709D-0B84-0295E79D9A0F">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>2346DB42-4630-3A0E-6EC7-9D7BEFB44F14</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6C30EE4C-BB45-A2A7-3204-D7F7EE022DDC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom_agent" id="E49A8D55-259B-35B7-0A2B-309D45BC186E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>D159122A-9802-6BF8-1C4B-8A45FF7ED808</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6C30EE4C-BB45-A2A7-3204-D7F7EE022DDC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_agent" id="F662DC3E-CFC3-708D-1E12-02A6EFF5EF01">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>4EBA7A0B-477C-EBEC-EF55-EE9766BB8682</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3597913C-073A-20D2-F1F7-A4F1622282BC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="B36E54F8-EABC-2B78-CE07-8802D747DDA4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>E6463339-CB00-1798-05DA-6960001BAABA</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8741E154-08D5-403D-29E6-78A75D1267F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_pass" id="AEA2BD9E-CCF8-5DC9-4A02-2C73ADDF63E4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>4930AA0C-F2BB-DC98-3AAB-BDF0D270B5CE</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE54B5EF-D007-122D-4916-3A54F04A253B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7204B6A3-D437-3362-883F-59A4E26C8CD1" name="agent_maintenance_PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>4B7091FC-DD7A-E801-2446-4F19F09A7816</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8472C773-74C2-4AF8-824B-2C777DF6F8D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

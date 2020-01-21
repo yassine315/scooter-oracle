@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C60D8E2F-A6A9-2EF6-8C1F-A83C950B7756" name="client">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>8C0CF22E-38FD-4AAB-68BA-778AD6713871</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<abbreviation>client</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="0A21C5C5-3139-B9BB-B7D5-8659A1C1B40E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>3AC8516D-0BB7-21C3-A306-4B35D8EE2500</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="FEFA7BF9-8278-57AB-6443-A74E1012AEF3">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>C1399E9F-F913-79C0-ED93-95F31972F160</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="2D5C884F-B7C5-2826-8320-520D41DDDA06">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>F546E0F5-E532-83B2-EFFC-F1DD6F94BF96</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="1CC8FC11-7FC7-3247-517B-369B60466CFD">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>58916DC6-8D1B-D224-C427-77F71533E2E0</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="F4EBD234-76D5-F8FD-30D9-D9FBF01E5ADA">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>DFE98E23-A4D1-CD45-B871-CE2172C51DEC</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_pass" id="918DB3DB-7A07-64FC-348A-5C20FB663494">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>064854A4-55D6-771E-7D64-17B80EE786AE</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38171267-08B3-EC3F-D322-FA502D41DC3E" name="client_PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 20:53:00 UTC</createdTime>
+<generatorID>89E808EF-B930-B8A6-AD23-4DFF03CE731F</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A21C5C5-3139-B9BB-B7D5-8659A1C1B40E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,7 +4,7 @@
 <createdTime>2020-01-11 23:41:11 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,16 +16,16 @@
 <normalForm>Third</normalForm>
 <shortName>client</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_client" id="3AC8516D-0BB7-21C3-A306-4B35D8EE2500">
+<Attribute name="id client" id="3AC8516D-0BB7-21C3-A306-4B35D8EE2500">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-11 23:41:46 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>979DF33D-DF13-D8E7-DA47-4C6B8F2753C5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nom" id="C1399E9F-F913-79C0-ED93-95F31972F160">
@@ -33,11 +33,11 @@
 <createdTime>2020-01-11 23:42:06 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>AA4DC984-782C-F233-358F-CEAD25162307</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="F546E0F5-E532-83B2-EFFC-F1DD6F94BF96">
@@ -45,12 +45,48 @@
 <createdTime>2020-01-11 23:42:18 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>6C6B8B5E-AED4-3E3F-FE25-9705BF62861D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom" id="58916DC6-8D1B-D224-C427-77F71533E2E0">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 00:07:56 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="DFE98E23-A4D1-CD45-B871-CE2172C51DEC">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 00:08:16 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mot_pass" id="064854A4-55D6-771E-7D64-17B80EE786AE">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 00:08:41 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -59,8 +95,9 @@
 <createdBy>hp</createdBy>
 <createdTime>2020-01-11 23:42:03 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="870A5C18-2D12-17B1-E491-049594E5BF30" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

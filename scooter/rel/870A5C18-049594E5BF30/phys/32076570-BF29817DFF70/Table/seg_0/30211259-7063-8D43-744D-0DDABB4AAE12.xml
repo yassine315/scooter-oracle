@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="admin" directorySegmentName="seg_0" id="30211259-7063-8D43-744D-0DDABB4AAE12">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="prenom_admin" id="1D2AD287-6473-F32E-B083-0044C6703583">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mot_pass" id="7D5C7F78-A6BB-7D01-4D6D-98907BFFE146">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nom_admin" id="97F2F16D-865B-2956-618C-D71ECE7E8F87">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="login_admin" id="9E82236B-BF28-A0AA-D60F-5F7D3D606A8B">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_admin" id="C939A717-1474-E92D-4087-EF497CF9CCD0">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email_admin" id="DC53FCD1-0309-A334-6AEF-156F6715EBC2">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="admin_PK" id="4072679A-9A35-A6BB-106C-A594D9AF78F5">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-19 21:03:05 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

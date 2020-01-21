@@ -1,9 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29CC9254-6755-C101-8BE3-896DE7F450A1" schemaObject="E0782B04-9620-B626-81BA-86FF45E5FEE4" name="client">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29CC9254-6755-C101-8BE3-896DE7F450A1" schemaObject="EBE92D66-3C85-BCD8-5514-C3B9A1727581" name="client">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-11 23:45:33 UTC</createdTime>
 <generatorID>8C0CF22E-38FD-4AAB-68BA-778AD6713871</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<ordsAuth>true</ordsAuth>
 <abbreviation>client</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -14,9 +16,9 @@
 <createdTime>2020-01-11 23:45:33 UTC</createdTime>
 <generatorID>3AC8516D-0BB7-21C3-A306-4B35D8EE2500</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>979DF33D-DF13-D8E7-DA47-4C6B8F2753C5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -25,9 +27,9 @@
 <createdTime>2020-01-11 23:45:33 UTC</createdTime>
 <generatorID>C1399E9F-F913-79C0-ED93-95F31972F160</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>AA4DC984-782C-F233-358F-CEAD25162307</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -37,9 +39,42 @@
 <generatorID>F546E0F5-E532-83B2-EFFC-F1DD6F94BF96</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="4E758BE5-8513-80DF-79A2-8A6521B15330">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>58916DC6-8D1B-D224-C427-77F71533E2E0</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>6C6B8B5E-AED4-3E3F-FE25-9705BF62861D</domain>
+<domain>6C30EE4C-BB45-A2A7-3204-D7F7EE022DDC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="5C043ECD-BB0F-8E14-75CC-EB0EF8AB102E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>DFE98E23-A4D1-CD45-B871-CE2172C51DEC</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8741E154-08D5-403D-29E6-78A75D1267F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_pass" id="70CAAD9B-A3EB-6EDE-CACF-6BC9ADB576DA">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-18 15:49:56 UTC</createdTime>
+<generatorID>064854A4-55D6-771E-7D64-17B80EE786AE</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE54B5EF-D007-122D-4916-3A54F04A253B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

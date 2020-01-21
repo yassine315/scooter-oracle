@@ -5,4 +5,9 @@
 <ownerDesignName>scooter</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>2111FBA0-EBEC-4CB5-4579-0B5AD0F48FB0</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6049B2E4-20D5-8F87-3176-F8FDE50F9094">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>
