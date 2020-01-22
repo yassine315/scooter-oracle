@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="localiser" directorySegmentName="seg_0" id="75613940-35B1-1B20-B5E4-1196E122ABD5">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:08:52 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<sourcePk>17CD5C80-7E2C-D72D-CB1B-3BC1DD173876</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0667D33A-39FC-245E-B923-4B2BC2AA877B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A434AD44-1E2F-38E4-331C-B7AD10FB5958</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

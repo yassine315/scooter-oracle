@@ -4,7 +4,7 @@
 <createdTime>2020-01-18 13:51:38 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -17,76 +17,76 @@
 <shortName>admin</shortName>
 <synonym>admin</synonym>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_admin" id="6B449F26-D6C6-614F-0511-50F2E399FBBB">
+<Attribute name="id admin" id="6B449F26-D6C6-614F-0511-50F2E399FBBB">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-18 13:52:00 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>E237ACE9-AF93-1744-FF59-08988DA22BC5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nom_admin" id="D708B271-A7E9-9F5D-4FC8-F5140ECD5F79">
+<Attribute name="nom admin" id="D708B271-A7E9-9F5D-4FC8-F5140ECD5F79">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-18 14:45:51 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>6C30EE4C-BB45-A2A7-3204-D7F7EE022DDC</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="prenom_admin" id="5429A956-FD28-61B2-B37E-36B00FD1CFC7">
+<Attribute name="prenom admin" id="5429A956-FD28-61B2-B37E-36B00FD1CFC7">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-18 14:48:07 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>6C30EE4C-BB45-A2A7-3204-D7F7EE022DDC</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email_admin" id="62C05A4F-CA03-BE55-612C-9EEF4096576B">
+<Attribute name="email admin" id="62C05A4F-CA03-BE55-612C-9EEF4096576B">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-18 14:48:19 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>3597913C-073A-20D2-F1F7-A4F1622282BC</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="login_admin" id="88076A19-992D-8251-4EED-E6BD63C61B84">
+<Attribute name="login admin" id="88076A19-992D-8251-4EED-E6BD63C61B84">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-18 14:48:47 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>8741E154-08D5-403D-29E6-78A75D1267F1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mot_pass" id="B4BCAB7D-78DE-A747-B393-DFF4BD35D043">
+<Attribute name="mot pass" id="B4BCAB7D-78DE-A747-B393-DFF4BD35D043">
 <createdBy>hp</createdBy>
 <createdTime>2020-01-18 14:50:59 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>DE54B5EF-D007-122D-4916-3A54F04A253B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -96,7 +96,7 @@
 <createdTime>2020-01-18 14:46:24 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="BA321622-7CFB-23B4-30A8-D8711F82DF3F" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

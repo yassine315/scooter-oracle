@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36940A94-D765-63EB-A752-198E5C7B8660" name="admin">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>C00A130A-859D-BB10-8A11-250AF468E2C1</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<abbreviation>admin</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_admin" id="F92B4B9A-2861-7E15-34DE-CB3E230461DD">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>6B449F26-D6C6-614F-0511-50F2E399FBBB</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_admin" id="4FF7E5B2-AFD1-5314-D5AE-6EBC27410ED3">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>D708B271-A7E9-9F5D-4FC8-F5140ECD5F79</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>634C8B63-F33E-90A8-E827-FFD9A4242750</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom_admin" id="B2876608-F77B-BBF4-A7D4-20260CD89BF7">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>5429A956-FD28-61B2-B37E-36B00FD1CFC7</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EB6C1EAE-1D14-EB47-6D90-D14EB8CD6866</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_admin" id="D0EE0938-2546-C89A-923F-D025C6D42603">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>62C05A4F-CA03-BE55-612C-9EEF4096576B</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B1952C76-A9A7-DACA-DE47-9EA99BB2849C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_admin" id="4D22BE3E-98A5-282D-8716-1186B16D1B84">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>88076A19-992D-8251-4EED-E6BD63C61B84</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E6E76327-ADDC-59D0-DBB9-BEFD9E1AC06C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_pass" id="2484E112-FC81-BC6F-6614-A9570837E2E5">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>B4BCAB7D-78DE-A747-B393-DFF4BD35D043</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>00306975-A4BF-12DB-F266-A799E8A2B2CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECC561E2-0D9B-0F5E-FEBD-9789715FF98D" name="admin_PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>FBE66AF0-A44F-BCD4-997E-D07ABAC005C5</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F92B4B9A-2861-7E15-34DE-CB3E230461DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

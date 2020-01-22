@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="929CD923-2283-B1B5-824D-6C54A06BDF32" name="agent maintenance">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33A3B8F3-FD31-EC8F-F9FF-F96530AC8C65" name="panne en attente">
 <createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:42:29 UTC</createdTime>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>ADE53470-8750-CF41-F1DC-A53B4B781CB9</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
 <item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
@@ -14,93 +15,90 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>AGM</shortName>
-<synonym>agent</synonym>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id agent maintance" id="6508B108-E3D7-B330-F3D9-1EAC7003F230">
+<Attribute name="localisation" id="B3DC54D1-9709-9BA1-34E5-BAAA5E1645A8">
 <createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:47:09 UTC</createdTime>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>818583F1-822C-2F3B-AACD-721E7E907520</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
 <item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date heure" id="9288542B-6F61-836B-3499-4E21B7CD5D6B">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>F00D9F76-D7BD-54D8-E09E-D5A2071BBD14</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type panne" id="BA13ADC3-0CF9-3CE7-5386-E891CE58C2B8">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>72E5B69B-C5D5-50A4-E1BD-D3F4682E1A04</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>634C8B63-F33E-90A8-E827-FFD9A4242750</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id panne" id="17B4D026-8701-51E7-2826-E17F2D6CC7CA">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>F506B141-604B-636A-7C0C-CC406CA15D6B</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nom agent" id="2346DB42-4630-3A0E-6EC7-9D7BEFB44F14">
+<Attribute name="location temp id localisation" id="9D0843B6-455F-0266-0A18-C48F319CD77C">
 <createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:47:33 UTC</createdTime>
+<createdTime>2020-01-22 12:47:56 UTC</createdTime>
+<generatorID>4B4C6852-9C6A-7D93-DAAB-362D7A21E9F4</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
 <item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="prenom agent" id="D159122A-9802-6BF8-1C4B-8A45FF7ED808">
-<createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:47:48 UTC</createdTime>
-<ownerDesignName>scooter</ownerDesignName>
-<engineerTo>
-<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="email agent" id="4EBA7A0B-477C-EBEC-EF55-EE9766BB8682">
-<createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:48:06 UTC</createdTime>
-<ownerDesignName>scooter</ownerDesignName>
-<engineerTo>
-<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="login" id="E6463339-CB00-1798-05DA-6960001BAABA">
-<createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:48:42 UTC</createdTime>
-<ownerDesignName>scooter</ownerDesignName>
-<engineerTo>
-<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="mot pass" id="4930AA0C-F2BB-DC98-3AAB-BDF0D270B5CE">
-<createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:49:17 UTC</createdTime>
-<ownerDesignName>scooter</ownerDesignName>
-<engineerTo>
-<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<referedAttribute>1BA2D7FD-86B7-6CB4-400A-D6D5A5B5E95B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4B7091FC-DD7A-E801-2446-4F19F09A7816" name="agent_maintenance_PK">
+<identifier id="CD3702DC-9706-588E-E5D0-2BDDB2F7E777" name="panne en attente PK">
 <createdBy>hp</createdBy>
-<createdTime>2020-01-18 13:47:32 UTC</createdTime>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>4A70EB6E-F99B-A634-2EEC-51B4E2D43980</generatorID>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
 <item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6508B108-E3D7-B330-F3D9-1EAC7003F230</attributeRef>
+<attributeRef>17B4D026-8701-51E7-2826-E17F2D6CC7CA</attributeRef>
+<attributeRef>9D0843B6-455F-0266-0A18-C48F319CD77C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="panne en attente location temp FK" directorySegmentName="seg_0" id="4B4C6852-9C6A-7D93-DAAB-362D7A21E9F4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:40:37 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<sourcePk>F13FFCE2-3222-F55A-98AF-3468BC0D784F</sourcePk>
+<targetPk>CD3702DC-9706-588E-E5D0-2BDDB2F7E777</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A434AD44-1E2F-38E4-331C-B7AD10FB5958</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33A3B8F3-FD31-EC8F-F9FF-F96530AC8C65</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

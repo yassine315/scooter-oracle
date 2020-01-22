@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EA9E73D-59ED-CA99-69C6-022DFC50CDD0" name="louer">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="scooter_matricule" id="1C3BFB5B-2C16-23D0-2010-8D7B8A5D8C1F">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="830A9E74-10DD-70AF-B63B-39B1A8DAC309" referredColumn="3D7B4553-4BEB-1DCB-9CC2-94DC7374DC5E"/>
+</associations>
+</Column>
+<Column name="client_id_client" id="F872AEB4-B054-4D88-06CC-D0EC0B69454E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79EEC4B4-F229-7798-FB15-2B13BDD0C043" referredColumn="3679FEEE-7398-95F5-ADAF-0384C706A7A2"/>
+</associations>
+</Column>
+<Column name="depart" id="C537AFD7-79FC-E256-0AAC-D9C5C38DB509">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>B175DF40-A99B-30DA-6238-94D16507FF0D</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="arrive" id="C49A19A5-6C15-BEC0-35E7-4D82843AA0FB">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>7F64ACC9-7750-3D5D-78DD-92C90EC6466C</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="heur_depart" id="1932AE2E-6AB5-18C8-D4CB-E08F749E0AD5">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>E5EC0A8B-10AC-7AB6-5059-C18D56A3691D</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="heur_arrive" id="AAE6182A-7D9A-4DE4-CECC-93BA46F462BD">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>1ED989E5-7A01-06D3-99E8-B2A77D04F530</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="prix" id="A8BDE910-BEED-F8F7-649B-0F2852DADF80">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>4BFF7376-8D45-31C0-3084-2468B655798F</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="traget" id="240ABD5F-1862-C661-889E-474838EDFE0E">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>1E256815-79D9-FF36-FB23-13E20C3F7292</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="426091EB-AFCD-824E-6BC9-48856D33F2C6" name="louer_PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C3BFB5B-2C16-23D0-2010-8D7B8A5D8C1F"/>
+<colUsage columnID="F872AEB4-B054-4D88-06CC-D0EC0B69454E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3159D9F7-F10C-BE00-9791-5124F20CD8DA" name="louer_scooter_FK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>F3BEBE24-D3EC-D108-CF46-7B5FCF8BAF35</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C3BFB5B-2C16-23D0-2010-8D7B8A5D8C1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D59DD720-189D-F56C-9A49-30157C67CBDF" name="louer_client_FK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>F3BEBE24-D3EC-D108-CF46-7B5FCF8BAF35</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F872AEB4-B054-4D88-06CC-D0EC0B69454E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

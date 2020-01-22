@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="moto relation" id="39A25E17-144D-3974-0880-2F91E298AF66" mainViewID="EBA106C2-903F-0142-E9CD-C3A76211359E">
-<createdBy>Yassine</createdBy>
-<createdTime>2020-01-21 22:28:06 UTC</createdTime>
-<ownerDesignName>scooter</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>

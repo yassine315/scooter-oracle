@@ -4,10 +4,9 @@
 <createdTime>2020-01-18 15:27:18 UTC</createdTime>
 <ownerDesignName>scooter</ownerDesignName>
 <engineerTo>
-<item key="0CB7F976-B78E-0A43-46DE-2C188656162E" value="true"/>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
 </engineerTo>
 <sourcePk>17CD5C80-7E2C-D72D-CB1B-3BC1DD173876</sourcePk>
-<targetPk>4B7091FC-DD7A-E801-2446-4F19F09A7816</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
@@ -17,4 +16,79 @@
 <targetEntity>929CD923-2283-B1B5-824D-6C54A06BDF32</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="type panne" id="015915CC-45A4-C090-A401-60052127FAB1">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>C633FC64-370E-7548-0BC8-BEA6A44606E6</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>634C8B63-F33E-90A8-E827-FFD9A4242750</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="description" id="83EC7222-2C4E-5C10-EA27-9C095852EFC6">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>F2E2BEE7-1404-783D-BC73-A179D7ABD93C</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</attribute>
+<attribute name="cout" id="7634A502-933F-BB81-1D14-F1B2200A0868">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>34E23313-E038-0BD2-59C8-E87029D48B83</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,5,4</ownDataTypeParameters>
+</attribute>
+<attribute name="localisation" id="F752D8AE-023B-16D1-208E-DEB4E74CEFB3">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>23E8596E-40BD-632F-79CE-2FA6450B3C8B</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="date" id="ABD53CA6-D5CC-97E9-DBBC-2140FFB9BED4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 12:31:13 UTC</createdTime>
+<generatorID>A4CE9138-891C-8851-0222-ECF469720F8E</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<engineerTo>
+<item key="9DC112D2-59CD-2A83-D001-D8564162A11D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
 </Relation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="896C3A6D-E3F9-FDFB-3C59-3202C3554FF7" name="panne_en_attente">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>33A3B8F3-FD31-EC8F-F9FF-F96530AC8C65</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="localisation" id="53176EB9-13B9-FF29-9176-EF5265497226">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>B3DC54D1-9709-9BA1-34E5-BAAA5E1645A8</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_heure" id="0E8321A6-BA0F-3185-EB60-0AB29EBAF8C0">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>9288542B-6F61-836B-3499-4E21B7CD5D6B</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_panne" id="D7259431-E468-6E06-218A-6A44EFBD5A00">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>BA13ADC3-0CF9-3CE7-5386-E891CE58C2B8</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>634C8B63-F33E-90A8-E827-FFD9A4242750</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_panne" id="7E1FE75B-811A-CD6F-E9E6-AB4BBF411538">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>17B4D026-8701-51E7-2826-E17F2D6CC7CA</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_temp_id_localisation" id="1965BEC5-35EB-9B86-3969-523B5F1FDB95">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>9D0843B6-455F-0266-0A18-C48F319CD77C</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B681013-CFA4-A192-B9CB-598C9A73505D" referredColumn="4B11407A-3748-2710-E007-51B46DE4ADA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7138D9C7-3B9D-A1B2-06B0-8E7EE74D6C3B" name="panne_en_attente_PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>CD3702DC-9706-588E-E5D0-2BDDB2F7E777</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E1FE75B-811A-CD6F-E9E6-AB4BBF411538"/>
+<colUsage columnID="1965BEC5-35EB-9B86-3969-523B5F1FDB95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9C7518D-615D-0F4B-F9BC-5E1866B4B43D" name="panne_en_attente_location_temp_FK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>4B4C6852-9C6A-7D93-DAAB-362D7A21E9F4</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1965BEC5-35EB-9B86-3969-523B5F1FDB95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

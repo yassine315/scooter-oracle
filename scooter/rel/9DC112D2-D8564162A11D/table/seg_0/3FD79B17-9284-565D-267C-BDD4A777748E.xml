@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FD79B17-9284-565D-267C-BDD4A777748E" name="preparer">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="scooter_matricule" id="F5D37770-0E2E-1E9C-A571-540CFC3FE06F">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7FDD1DF-5666-FE0C-EC79-94FC9D865B84" referredColumn="3D7B4553-4BEB-1DCB-9CC2-94DC7374DC5E"/>
+</associations>
+</Column>
+<Column name="iid_agent_maintance" id="F4288BF1-C7E4-146D-38BB-BDA5AD60A7A8">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0D518F1F-2FC6-395B-B2CE-6A7321B796A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08269447-EE4A-BA7B-C9D2-7285952C9E14" referredColumn="AABB284C-D878-1722-D56F-41A611184FC2"/>
+</associations>
+</Column>
+<Column name="type_panne" id="44979F56-5C72-DBAA-77A7-61A129A471EC">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>015915CC-45A4-C090-A401-60052127FAB1</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>634C8B63-F33E-90A8-E827-FFD9A4242750</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="description" id="4AB3A2D0-0F45-E8D2-C059-43629365CB48">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>83EC7222-2C4E-5C10-EA27-9C095852EFC6</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="cout" id="5C2DE0C0-6769-AC4E-7D50-654C1B371346">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>7634A502-933F-BB81-1D14-F1B2200A0868</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,5,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="localisation" id="CBAC9E3D-1622-821A-4F0D-9D1B956D7948">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>F752D8AE-023B-16D1-208E-DEB4E74CEFB3</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="date" id="437072B6-7533-C9CA-1892-2739562C7FE4">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>ABD53CA6-D5CC-97E9-DBBC-2140FFB9BED4</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91EA5B01-D9BF-5F41-B674-95870CC15823" name="preparer_PK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<ownerDesignName>scooter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5D37770-0E2E-1E9C-A571-540CFC3FE06F"/>
+<colUsage columnID="F4288BF1-C7E4-146D-38BB-BDA5AD60A7A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C292CC53-0EFB-6067-A8BD-AE650F806A95" name="preparer_scooter_FK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>B30D5537-D2AD-EC50-6C23-6BB977C8353D</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5D37770-0E2E-1E9C-A571-540CFC3FE06F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA135F68-81FF-DB40-5F17-025153D9989A" name="preparer_agent_maintenance_FK">
+<createdBy>hp</createdBy>
+<createdTime>2020-01-22 13:15:40 UTC</createdTime>
+<generatorID>B30D5537-D2AD-EC50-6C23-6BB977C8353D</generatorID>
+<ownerDesignName>scooter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4288BF1-C7E4-146D-38BB-BDA5AD60A7A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
